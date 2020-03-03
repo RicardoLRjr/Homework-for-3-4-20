@@ -1,0 +1,20 @@
+body {
+    background-image: url(https://image.freepik.com/free-photo/gray-clean-paperboard_95678-95.jpg);
+   }
+
+h1{
+    text-align: center;
+}
+
+.container-md{
+        background-color: white;
+
+} 
+
+
+#footer{
+    background-color:rgb(102,102,102);
+    border-top: solid, cadetblue, 10px;
+    color: white;
+    text-align: center;
+}
