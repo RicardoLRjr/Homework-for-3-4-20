@@ -1,22 +1,17 @@
-#navbar {
-    background-color: white;
-}
 
-#Namebar {
+
+.rlrName {
     background-color: cadetblue;
     color: white;
-}
-
-.h1 {
-    position: relative;
-    height: auto;
-    transform: translateZ(0);
-    top: -20px; /* .navbar has margin-bottom: 20px; */
 }
 
 body {
     background-image: url(https://image.freepik.com/free-photo/gray-clean-paperboard_95678-95.jpg);
    }
+#navbarName {
+    background-color: cadetblue;
+    color: white;
+}
 
 h1{
     background-color: cadetblue;
@@ -24,18 +19,47 @@ h1{
     text-align: left;
 }
 
-.container{
-        background-color: white;
-        /* max-width: 80%; */
-} 
-
-#huskytext{
-    margin-top: 15px;
+h2 {
+    background-color: white;
+    color: cadetblue;
 }
 
+.container{
+    background-color: white;
+}
+
+.portfolio-container{
+        background-color: white;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 30px;
+} 
+
+#portfoliocontainer{
+    background-color: white;
+    margin-bottom: 30%;
+}
+
+.portfolioImg {
+    margin: 10px 5px;
+
+}
+
+#header-row {
+    border-bottom: cadetblue, solid, 5px;
+}
 #footer{
     background-color:rgb(102,102,102);
     border-top: solid, cadetblue, 10px;
     color: white;
     text-align: center;
 }
+/* Media Queries */
+
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (min-width: 600px) {
+    div.example {
+      display: none;
+    }
+  }
