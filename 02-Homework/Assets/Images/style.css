@@ -6,11 +6,13 @@ h1{
     text-align: center;
 }
 
-.container-md{
+.container{
         background-color: white;
 
 } 
 
+#cute-husky-pic {
+}
 
 #footer{
     background-color:rgb(102,102,102);
