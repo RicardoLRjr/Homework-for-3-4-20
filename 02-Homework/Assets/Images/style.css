@@ -1,17 +1,29 @@
+#navbar {
+    background-color: white;
+}
+
+#Namebar {
+    background-color: cadetblue;
+    color: white;
+}
+
 body {
     background-image: url(https://image.freepik.com/free-photo/gray-clean-paperboard_95678-95.jpg);
    }
 
 h1{
+    background-color: cadetblue;
+    color: white;
     text-align: center;
 }
 
 .container{
         background-color: white;
-
+        max-width: 90%;
 } 
 
-#cute-husky-pic {
+#huskytext{
+    margin-top: 15px;
 }
 
 #footer{
