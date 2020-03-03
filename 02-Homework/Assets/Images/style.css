@@ -7,6 +7,13 @@
     color: white;
 }
 
+.h1 {
+    position: relative;
+    height: auto;
+    transform: translateZ(0);
+    top: -20px; /* .navbar has margin-bottom: 20px; */
+}
+
 body {
     background-image: url(https://image.freepik.com/free-photo/gray-clean-paperboard_95678-95.jpg);
    }
@@ -14,12 +21,12 @@ body {
 h1{
     background-color: cadetblue;
     color: white;
-    text-align: center;
+    text-align: left;
 }
 
 .container{
         background-color: white;
-        max-width: 90%;
+        /* max-width: 80%; */
 } 
 
 #huskytext{
