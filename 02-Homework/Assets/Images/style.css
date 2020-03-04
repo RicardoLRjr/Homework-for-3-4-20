@@ -10,35 +10,26 @@ body {
    }
 #navbarName {
     background-color: cadetblue;
-    color: white;
+    color: white
 }
 
+
 h1{
-    background-color: cadetblue;
-    color: white;
-    text-align: left;
+    background-color: white;
+    color: cadetblue;
 }
 
 h2 {
     background-color: white;
     color: cadetblue;
 }
-
-.container{
+/* ask how to change size of container*/
+.container {
+    max-width: 60%;
+    position: relative;
+    top: 20px;
+    right: 75px;
     background-color: white;
-}
-
-.portfolio-container{
-        background-color: white;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        margin-right: 30px;
-} 
-
-#portfoliocontainer{
-    background-color: white;
-    margin-bottom: 30%;
 }
 
 .portfolioImg {
@@ -54,6 +45,8 @@ h2 {
     border-top: solid, cadetblue, 10px;
     color: white;
     text-align: center;
+    position: relative;
+    top: 200px;
 }
 /* Media Queries */
 
