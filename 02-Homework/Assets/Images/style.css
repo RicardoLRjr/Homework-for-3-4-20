@@ -3,6 +3,25 @@
 body {
     background-image: url(https://image.freepik.com/free-photo/gray-clean-paperboard_95678-95.jpg);
    }
+   #page-header {
+background-color: cadetblue;
+color: white;
+text-align: center;
+margin-bottom: 1px;
+}
+#page-header-2{
+    text-align: center;
+    position: relative;
+    top: 0px;
+    background-color: white;
+}
+
+.link{
+    color:gray;
+    line-height: 10px;
+}
+
+
    .navbar {
 padding: 0rem;
 }
@@ -13,6 +32,8 @@ padding: 0rem;
 
 }
 
+
+
 .p{
     text-align: justify;
 }
@@ -20,11 +41,6 @@ padding: 0rem;
 h1{
     background-color: white;
     color: cadetblue;
-}
-#page-header {
-background-color: cadetblue;
-color: white;
-text-align: center;
 }
 
 h2 {
@@ -82,8 +98,8 @@ width: 100%;
     }
         }
         /* // Medium devices (tablets, 768px and up) (from bootstrap documentation) */
-@media (min-width: 760px) {
-    #page-header {
+@media (min-width: 766px) {
+    #page-header, #page-header-2 {
         display: none;
     }
 }
